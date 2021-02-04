@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`panel with timer & control buttons play/pause & reset 1`] = `
+Array [
+  "Test 1.1 timer React",
+  <br />,
+  "Timer:",
+  <br />,
+  " ☺",
+  "Controls P/S:",
+  <br />,
+  "Reset : ",
+]
+`;

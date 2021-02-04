@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`with methods  renderScreen() & changeScreen(id | ++) 1`] = `
+Array [
+  <div>
+    Change screen to id = -1 : 
+    <button
+      onClick={[Function]}
+    >
+       to -1 
+    </button>
+  </div>,
+  <div>
+    Change screen ++ : 
+    <button
+      onClick={[Function]}
+    >
+      screen ++
+    </button>
+  </div>,
+  <div>
+    Screen :
+  </div>,
+]
+`;

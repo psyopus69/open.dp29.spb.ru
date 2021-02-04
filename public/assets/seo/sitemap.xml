@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>https://dp29.spb.ru/</loc>
+  <lastmod>2020-12-06T19:15:03+00:00</lastmod>
+</url>
+<url>
+  <loc>https://dp29.spb.ru/search</loc>
+  <lastmod>2020-12-06T19:15:03+00:00</lastmod>
+</url>
+<url>
+  <loc>https://dp29.spb.ru/covid</loc>
+  <lastmod>2020-12-06T19:15:03+00:00</lastmod>
+</url>
+<url>
+  <loc>https://dp29.spb.ru/vakc</loc>
+  <lastmod>2020-12-06T19:15:03+00:00</lastmod>
+</url>
+<url>
+  <loc>https://dp29.spb.ru/prof</loc>
+  <lastmod>2020-12-06T19:15:03+00:00</lastmod>
+</url>
+<url>
+  <loc>https://dp29.spb.ru/contacts</loc>
+  <lastmod>2020-12-06T19:15:03+00:00</lastmod>
+</url>
+<url>
+  <loc>https://dp29.spb.ru/location</loc>
+  <lastmod>2020-12-06T19:15:03+00:00</lastmod>
+</url>
+<url>
+  <loc>https://dp29.spb.ru/recording</loc>
+  <lastmod>2020-12-06T19:15:03+00:00</lastmod>
+</url>
+<url>
+  <loc>https://dp29.spb.ru/payServices</loc>
+  <lastmod>2020-12-06T19:15:03+00:00</lastmod>
+</url>
+<url>
+  <loc>https://dp29.spb.ru/schedule</loc>
+  <lastmod>2020-12-06T19:15:03+00:00</lastmod>
+</url>
+<url>
+  <loc>https://dp29.spb.ru/conditions</loc>
+  <lastmod>2020-12-06T19:15:03+00:00</lastmod>
+</url>
+
+<!-- All routes from mock
+/
+/search
+/covid
+/vakc
+/prof
+/contacts
+/location
+/recording
+/payServices
+/schedule
+/conditions
+-->
+
+</urlset>

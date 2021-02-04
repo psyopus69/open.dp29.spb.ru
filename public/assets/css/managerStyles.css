@@ -1,0 +1,17 @@
+div#testManagerWrapper{
+  width: 80%;
+  margin: auto;
+}
+.alert{
+  background: black;
+  color: red;
+}
+@font-face {
+    font-family: "NimbusSanL-ReguCond";
+    src: url(assets/css/fonts/NimbusSanL-ReguCond.ttf);
+}
+@font-face {
+    font-family: "Unifont_CSUR";
+    src: url(assets/css/fonts/unifont_csur.ttf);
+}
+

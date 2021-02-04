@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`panel with setStatus & getStatus 1`] = `
+Array [
+  <div>
+    Test 1.4 SimpleCustomState React
+  </div>,
+  <button
+    onClick={[Function]}
+  >
+    console status
+  </button>,
+  <div>
+    setCustomState 
+    <input
+      onChange={[Function]}
+    />
+  </div>,
+]
+`;

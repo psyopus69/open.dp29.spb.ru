@@ -1,0 +1,44 @@
+@mixin left($left){
+  left: $left;
+}
+@mixin leftT($left, $top){
+  left: $left;
+  top: $top;
+}
+@mixin leftMt($left, $top){
+  left: $left;
+  margin-top: $top;
+}
+@mixin right($right){
+  right: $right;
+}
+@mixin rightT($right, $top){
+  right: $right;
+  top: $top;
+}
+@mixin rightMt($right, $top){
+  right: $right;
+  margin-top: $top;
+}
+@mixin widthHeight($width, $height){
+  width: $width;
+  height: $height;
+}
+@mixin marginCenter($width){
+  margin-left: calc((100% - #{$width})/2);
+}
+@mixin mLeft($left){
+  margin-left:$left;
+}
+@mixin mRight($right){
+  margin-right:$right;
+}
+@mixin mLeftT($left, $top){
+  margin-left:$left;
+  margin-top: $top;
+}
+@mixin mRightT($right, $top){
+  margin-right:$right;
+  margin-top: $top;
+}
+

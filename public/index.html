@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Детская поликлиника № 29 </title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+<script src="https://vk.com/js/api/openapi.js?168" type="text/javascript"></script>
+<script type="text/javascript">
+  VK.Widgets.Group("vk_groups", {mode: 4, width: "auto", height: "380"}, 193053214);
+</script>
+<script>
+  window.addEventListener('scroll', function() {
+    if (pageYOffset > 450) {
+      if (document.querySelector(`div.btnUp`).classList.contains(`hide`)) {
+        document.querySelector(`div.btnUp`).classList.remove(`hide`);
+      }
+    }
+    else {
+      if (document.querySelector(`div.btnUp`).classList.contains(`hide`) === false) {
+        document.querySelector(`div.btnUp`).classList.add(`hide`);
+      }
+    }
+  });
+</script>
+<section class="main" id="root"/>
+<script src="bundle.js"></script>
+</body>
+</html>

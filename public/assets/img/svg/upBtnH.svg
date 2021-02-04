@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns:serif="http://www.serif.com/"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 595.3 841.9"
+	 style="enable-background:new 0 0 595.3 841.9;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#1F384A;}
+	.st2{fill:#D4DCFF;fill-opacity:0.4807;}
+</style>
+<g>
+	<defs>
+		<rect id="SVGID_1_" y="49.1" width="595.3" height="744.1"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g class="st0">
+		<path class="st1" d="M595.3,299.4c0-97.1-78.7-175.8-175.8-175.8c-76.8,0-166.8,0-243.6,0C78.7,123.5,0,202.3,0,299.4
+			C0,376.2,0,466.2,0,543c0,97.1,78.7,175.8,175.8,175.8c76.8,0,166.8,0,243.6,0c97.1,0,175.8-78.7,175.8-175.8
+			C595.3,466.2,595.3,376.2,595.3,299.4z"/>
+		<path class="st2" d="M321.4,601.3V324.5L428,415.5l31-35.7L297.6,241.1L136.3,379.8l31,35.7l106.6-91.1v276.8H321.4z"/>
+	</g>
+</g>
+</svg>

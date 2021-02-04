@@ -1,0 +1,135 @@
+// by default fot ped29, other need appropriate (all in comment need uncommented), : spec 29 | ped61 | spec61(include in ped61)
+:global{
+  body{
+    background: #f7f7f7;
+    font-size: 1em;
+    margin: 0;
+    padding: 2px;
+    .forTd{
+      background: cadetblue;
+      padding: 2px;
+      text-align: center;
+    }
+    #here {
+      width: 100%;
+      font-size: 1.45em;
+      font-family: 'NimbusSanL-ReguCond', sans-serif;
+      .displayNone{
+        display: none;
+      }
+      td.noReception {
+        background: #ff00002b !important;
+      }
+      tr.administering{
+        td{
+          //border-right: #b0509a solid 3px!important;
+          //border-bottom: #b0509a solid 3px!important;
+        }
+
+
+      }
+      tbody#firstTbody tr {
+        td {
+          background: #fafbee linear-gradient(90deg, #5f1c37 10px, transparent 10px);
+          padding: 5px 3px 3px 1px;
+          border-top: #4e152c solid 1px;
+          border-left: #4e152c solid 1px;
+          border-right: #4e152c solid 3px;
+          border-bottom: #4f162d solid 3px;
+          text-align: center;
+        }
+      }
+
+      tbody {
+        &:last-child {
+          tr {
+            background: #fafbee linear-gradient(135deg, #782345 10px, transparent 10px);
+            td {
+              background: none;
+              padding: 5px 3px 3px 1px;
+              border-right: #4e152c solid 3px;
+              border-bottom: #4f162d solid 3px;
+              &:nth-child(2){
+                background: linear-gradient(90deg, #78234573 3px, transparent 16px),
+                linear-gradient(270deg, #78234573 3px, transparent 14px);
+                padding: 5px 15px 5px 10px;
+              }
+              &:nth-child(n+3) {
+              background: linear-gradient(45deg, #782345 8px, transparent 8px),
+              linear-gradient(225deg, #782345 3px, transparent 3px);
+                //background: #fafbee linear-gradient(135deg, #843bea 10px, transparent 10px);
+              }
+            }
+          }
+        }
+      }
+    }
+    #here > tbody > tr > td{
+      @extend .forTd;
+      &:nth-child(1){
+        width: 0.1%
+      }
+      &:nth-child(2){
+        text-align: left;
+      }
+      &:nth-child(3){
+        width: 0.1%
+      }
+      &:nth-child(n+4){
+        width: 1%;
+        min-width: 100px;
+      }
+    }
+    // for spec 29 ↓
+    //#here > tbody > tr > td{
+    //  &:nth-child(1){
+    //    min-width: 250px;
+    //  }
+    //}
+    // end for spec 29 ↑
+
+    // ↓ for ped61 || spec61 start
+    #here {
+      writing-mode: tb-rl;
+      tbody#firstTbody > tr > td {
+        background: #fafbee linear-gradient(180deg, #5f1c37 5px, transparent 6px);
+        padding: 5px 3px 3px 1px;
+        border-left: #4e152c solid 3px;
+        border-top: #4e152c solid 1px;
+        border-right: #4e152c solid 1px;
+        border-bottom: #4f162d solid 3px;
+        text-align: center;
+      }
+
+    }
+    #here > tbody:last-child > tr {
+      td{
+        &:first-child{
+          background: #fafbee linear-gradient(180deg, #782345 1px, transparent 5px);
+          height: 1px;
+        }
+        &:nth-child(2){
+          background: linear-gradient(180deg, #78234573 3px, transparent 16px),linear-gradient(360deg, #78234573 3px, transparent 14px);
+          padding: 15px 5px 10px 5px;
+        }
+        &:nth-child(3) {
+          height: 1px;
+        }
+      }
+      background: none;
+    }
+    #here > tbody:last-child tr td {
+      border-left: #4e152c solid 3px;
+      border-top: #4e152c solid 1px;
+      border-right: #4e152c solid 1px;
+      border-bottom: #4f162d solid 3px;
+    }
+
+    //start for spec61 uncomment
+    #here{
+      transform: rotate(180deg);
+    }
+    // end  for spec61 uncomment
+    // ↑ for ped61 spec61 end
+  }
+}

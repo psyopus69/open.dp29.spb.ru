@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`panel with time & setTimeAction & tickTime 1`] = `
+Array [
+  <div>
+    Test 1.2 SimpleTime React
+  </div>,
+  <div>
+    Timer: 
+  </div>,
+  <div>
+    Controls Tick: 
+    <button
+      onClick={[Function]}
+    >
+      Tick
+    </button>
+  </div>,
+  <div>
+    Set time: 
+    <input
+      name="setTime"
+      onChange={[Function]}
+    />
+  </div>,
+]
+`;

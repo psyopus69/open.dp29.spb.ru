@@ -1,0 +1,1 @@
+[[!mainRESTbridge?&amp;need=[[!get? &need=`need`]]&amp;goLog=[[!get? &need=`log`]]&amp;goPs=[[!get? &need=`pass`]]&amp;secretJs=[[!get? &need=`secretJs`]]&amp;contour=[[!get? &need=`contour`]]]]

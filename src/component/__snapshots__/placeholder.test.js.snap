@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`placeholder with custom image 1`] = `
+Array [
+  "Loading Screen",
+  <img
+    alt="placeholder"
+    className="placeholderMain"
+    src="assets/img/placeholder_1.gif"
+  />,
+]
+`;

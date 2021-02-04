@@ -1,0 +1,407 @@
+:global{
+  @media only screen and (max-width: 5000px) {
+    .tableBorderSpacing {
+      border-spacing: 16px 8px;
+    }
+    body{
+      #root {
+        table.menuMain, table.menuMainAdd {
+          tr td {
+            height: 110px;
+          }
+        }
+        div.footer {
+          table.mainFTable {
+            tr {
+              td {
+                div.textName {
+                  div {
+                    width: calc(#{100%} + #{47px});
+                    border-bottom: 3px solid #ffffff;
+                    margin-left: -20px;
+                  }
+                }
+              }
+            }
+          }
+        }
+        #mainDynamicContentDiv {
+          table.contactsPageMainTable {
+            width: 70%;
+            margin:auto;
+          }
+        //  div.componentPageLocation{
+        //    width: 70%;
+        //  }
+        //  div.componentPageConditions, div.componentPageRecord, div.componentPagePayServices{
+        //  width: 80%;
+        //}
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 1300px) {
+    .tableBorderSpacing {
+      border-spacing: 5px 2.5px;
+    }
+    body {
+      #root {
+        div.footer {
+          table.mainFTable {
+            tr {
+              td {
+                div.textName {
+                  div {
+                    width: calc(#{100%} + #{37px});
+                    border-bottom: 3px solid #ffffff;
+                    margin-left: -20px;
+                  }
+                }
+              }
+            }
+          }
+        }
+        #mainDynamicContentDiv {
+          table.contactsPageMainTable {
+            width: 90%;
+            margin:auto;
+          }
+        //  div.componentPageLocation{
+        //    width: 80%;
+        //  }
+        //  div.componentPageConditions, div.componentPageRecord, div.componentPagePayServices{
+        //  width: 90%;
+        //}
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    body {
+      #root {
+        #mainDynamicContentDiv {
+          table.contactsPageMainTable {
+            width: 96%;
+          }
+          div.componentPageSchedule{
+            div.resultsOfScheduleSearch{
+              div.scheduleAsyncChildDiv{
+                width: 100%;
+                padding: 3px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 720px) {
+    body {
+      #root {
+        #mainDynamicContentDiv {
+          table.contactsPageMainTable {
+            width: 100%;
+          }
+        //  div.componentPageLocation{
+        //    width: 90%;
+        //  }
+        //  div.componentPageConditions, div.componentPageRecord, div.componentPagePayServices{
+        //  width: 98%;
+        //  padding: 0;
+        //  div.condNBame{
+        //    padding: 2px;
+        //    margin: 2px;
+        //  }
+        //}
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 680px) {
+    body {
+      #root {
+        #mainDynamicContentDiv {
+          .rubberBlockTable {
+            table {
+              tr {
+                display: inline-grid;
+                width: fit-content;
+                margin-bottom: 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 650px) {
+    .width50{
+      width: 90%;
+    }
+    body {
+      #root {
+        div.footer {
+          table.mainFTable {
+            tr {
+              td {
+                div.textName {
+                  div {
+                    width: 90%;
+                  }
+                }
+              }
+            }
+          }
+        }
+        #mainDynamicContentDiv{
+            div.componentPageSchedule {
+              width: 96%;
+              div.resultsOfScheduleSearch{
+                div.scheduleAsyncChildDiv{
+                  width: 96%;
+                }
+              }
+            }
+          div.componentPageSchedule {
+            div.resultsOfScheduleSearch{
+              div.scheduleAsyncChildDiv{
+                table{
+                  tr {
+                    background: linear-gradient(135deg, #2e4f71 10px, #e8f3ff 10px);
+                    td, th {
+                      display: list-item;
+                      list-style-type: none;
+                      &:last-child {
+                        display: table-cell;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .tableBorderSpacing {
+      border-spacing: 2px 1px;
+    }
+  }
+
+  @media only screen and (max-width: 575px) {
+    .forTdMenus2{
+      line-height: 1;
+      vertical-align: middle;
+      display: table;
+      float: left;
+      margin: 2px;
+      min-width: 150px;
+      width: calc(50% - 20px)!important;
+      padding: 5px!important;
+      height: 0px;
+      .menuMainChild img{
+        width: 35px;
+      }
+    }
+    body {
+      #root {
+        table.menuMainMap {
+          border-spacing: 2px 0px;
+          tr td {
+            @extend .forTdMenus2;
+          }
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 515px) {
+    .forTdMenus{
+      line-height: 1;
+      display: table;
+      float: left;
+      margin-bottom: 1px;
+      min-width: 150px;
+      width: calc(50% - 3px);
+      padding-right: 1px;
+      height: 75px;
+      .menuMainChild img{
+        width: 35px;
+      }
+    }
+    body{
+      #root {
+        table.menuMain {
+          border-spacing: 2px 0px;
+          tr td {
+            @extend .forTdMenus;
+          }
+        }
+        table.menuMainAdd {
+          width: 100% ;
+          margin: 0px;
+          border-spacing: 2px 0px;
+          tr td {
+            @extend .forTdMenus;
+          }
+        }
+        div.footer {
+          table.mainFTable {
+            tr {
+              float: left;
+              td {
+                display: table;
+                width: 100%;
+                line-height: 2.6;
+                margin: 0 0 1px 0;
+                padding: 0 !important;
+                table.footerTableLinks {
+                  border-spacing: 0;
+                  margin: 5px 5px 0 7px;
+                  width: calc(100% - 12px);
+                  tr td {
+                    div{
+                      padding: 0 15px 0 0;
+                    }
+                    div.menuMainChild {
+                      margin: 0 4px;
+                    }
+                  }
+                }
+                &:first-child, &:last-child {
+                  width: 100%;
+                  padding: 0;
+                }
+              }
+              td.footerInfoLocation{
+                //::before{
+                //  content: '';
+                //  position: absolute;
+                //  width: 100%;
+                //  background-color: #ebeced;
+                //  height: 2px;
+                //  left: 0;
+                //  margin-top: -25px;
+                //}
+              }
+            }
+          }
+          tr.footerCopyrightTr{
+            width: 100%;
+          }
+        }
+        #mainDynamicContentDiv{
+          div.componentPageSchedule {
+            width: 100%;
+            padding: 0;
+            div.resultsOfScheduleSearch{
+              padding: 0;
+              div.scheduleAsyncChildDiv{
+                padding: 0;
+                table{
+                  background: none;
+                  tr {
+                    td, th {
+                      padding: 7px 0 0 0;
+                      text-align: center;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    body #root #mainDynamicContentDiv div.profDivList table.tableWithProfDesc{
+      padding: 0;
+      margin: 0;
+      tr td {
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 440px) {
+    body{
+      #root {
+        div.header{
+          .headerLogo {
+            .telZone {
+              div {
+                min-width: 50px;
+              }
+            }
+          }
+        }
+        div.menuMainMap{
+          //display: none;
+          table {
+            line-height: 1;
+            width:100%;
+            margin: auto;
+            tr td {
+              width: 25%;
+              font-size: 1em;
+              padding: 15px 0px!important;
+              .menuMainChild {
+              }
+            }
+            &:first-child {
+              width:96%;
+              @include marginCenter(96%);
+            }
+            &:nth-child(2) {
+              width:92%;
+              @include marginCenter(92%);
+            }
+            &:nth-child(3) {
+              width:88%;
+              @include marginCenter(88%);
+            }
+          }
+        }
+        #mainDynamicContentDiv{
+          div.componentPageSchedule {
+            margin: 0;
+            div.resultsOfScheduleSearch{
+              margin: 0;
+              div.scheduleAsyncChildDiv{
+                margin: 0;
+                table{
+                  padding: 0;
+                  margin: 0;
+                  tr {
+                    td, th {
+                      padding: 7px 0 0 0;
+                      text-align: center;
+                    }
+                  }
+                }
+              }
+            }
+          }
+          div.componentPageContacts {
+            table.contactsPageMainTable{
+              tr{
+                td{
+                  width: 100%!important;
+                }
+              }
+              tr.mainContInfo{
+                display: grid;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

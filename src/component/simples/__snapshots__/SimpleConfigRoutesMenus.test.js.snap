@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`all methods of 2 HOCK's withRoutes & withMenu 1`] = `
+Array [
+  <div>
+    MenusCustom:
+  </div>,
+  <div>
+    Menus /about/secret:
+  </div>,
+  <div>
+    MenusAll:
+  </div>,
+  <div>
+    RoutesCustom:
+  </div>,
+  <div>
+    RoutesAll:
+  </div>,
+]
+`;
